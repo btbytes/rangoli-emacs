@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: new link
+# key: newlink
+# --
+
+<article id='`(format-time-string "%b%d-%H%M")`' data-epoch=`(format-time-string "%s")` class="links-article">
+<p><a class="links-url"href="$1">$2</a>
+<span class="links-description">$3</span>
+<span class="links-permalink"><a href=#`(format-time-string "%b%d-%H%M")`>&para;</a></span>
+</p>
+</article>

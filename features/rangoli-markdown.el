@@ -28,6 +28,11 @@
  ;; npm install -g marked
  ((executable-find "marked")
   (setq markdown-command "marked"))
+ ;; brew install pandoc
+ ;; sudo apt install pandoc
+ ((executable-find "pandoc")
+  (setq markdown-command "pandoc"))
+ 
  ;; no preview command available
  (t
   (error "Markdown preview command unavailable")))

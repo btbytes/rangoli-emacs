@@ -4,6 +4,7 @@
 
 (require 'python)
 (require 'lsp-pyls)
+;; (straight-use-package 'py-yapf)
 
 ;;; pyenv
 (defvar rangoli/pyenv-root (f-expand "~/.pyenv/"))
@@ -45,6 +46,9 @@
             (rangoli/set-local-leader-key "v d" 'pyvenv-deactivate "deactivate")
             (when rangoli/has-pyenv
               (rangoli/set-local-leader-key "v p" 'pyvenv-workon "pick pyenv"))))
+
+;; YAPF
+
 
 ;;; DAP
 

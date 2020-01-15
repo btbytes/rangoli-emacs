@@ -1,0 +1,10 @@
+# contributor: btbytes<pradeep@btbytes.com>
+# name: notebook
+# --
+---
+title: $1
+date: `(format-time-string "%Y-%m-%d")`
+kind: notebook
+---
+
+$2

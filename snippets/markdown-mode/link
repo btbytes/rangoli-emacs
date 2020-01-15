@@ -1,0 +1,12 @@
+# contributor: btbytes<pradeep@btbytes.com>
+# name: link
+# --
+---
+url: $1
+title: $2
+slug: $3
+date: `(format-time-string "%Y-%m-%d")`
+kind: link
+---
+
+$4

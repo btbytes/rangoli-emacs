@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: aname
+# key: aname
+# --
+
+----
+
+<a id=`(format-time-string "%m%d%H%M")`></a>
+
+$1

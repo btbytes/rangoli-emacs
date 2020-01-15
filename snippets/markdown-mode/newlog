@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: new log entry
+# key: newlog
+# --
+
+## `(format-time-string "%a, %b %-d, %Y")`

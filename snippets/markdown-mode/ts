@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ts
+# key: ts
+# --
+`(format-time-string "%Y-%m-%dT%H:%M:%S%:z")`

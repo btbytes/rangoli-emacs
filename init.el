@@ -64,7 +64,9 @@
 ;; (require 'swa-org)
 ;; (require 'swa-bookmarks)
 ;; (require 'swa-personal)
-
+(require 'pkg-html)
+(require 'pkg-crystal)
+(require 'pkg-nim)
 (let ((rangoli-private-config (f-join rangoli/private-emacs-config-dir "init.el")))
   (when (f-exists? rangoli-private-config)
     (load rangoli-private-config)))
