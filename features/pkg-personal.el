@@ -3,7 +3,7 @@
 ;;; Packages
 
 ;; My details
-(setq user-full-nameee "Pradeep Gowda")
+(setq user-full-name "Pradeep Gowda")
 (setq user-mail-address "pradeep@btbytes.com")
 
 

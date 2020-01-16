@@ -64,9 +64,15 @@
 ;; (require 'swa-org)
 ;; (require 'swa-bookmarks)
 ;; (require 'swa-personal)
+
+(require 'pkg-personal)
 (require 'pkg-html)
 (require 'pkg-crystal)
 (require 'pkg-nim)
+(require 'pkg-scheme)
+(require 'pkg-pandoc)
+;; the private-emacs-config-dir caused some issues with yasnippet directory location.
 (let ((rangoli-private-config (f-join rangoli/private-emacs-config-dir "init.el")))
   (when (f-exists? rangoli-private-config)
     (load rangoli-private-config)))
+

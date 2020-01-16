@@ -1,7 +1,7 @@
 ;; pkg-nim.el --- nim language configuration -*- lexical-binding: t; -*-
 (straight-use-package 'nim-mode)
 (require 'nim-mode)
-(setq nimsuggest-path "/Users/pgowda/nim/bin//nimsuggest")
+(setq nimsuggest-path "/Users/pgowda/nim/bin/nimsuggest")
 
 (defun my--init-nim-mode ()
   "Local init function for `nim-mode'."
