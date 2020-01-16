@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: neworg
+# key: neworg
+# --
+#+TITLE: $1
+#+AUTHOR: Pradeep Gowda
+#+EMAIL: pradeep.gowda@gmail.com
+#+DESCRIPTION: $2
+#+KEYWORDS: $3
+#+LANGUAGE: en
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+
+$4

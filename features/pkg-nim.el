@@ -28,6 +28,13 @@
   (auto-fill-mode 0)
   (electric-indent-local-mode 0)
 )
+(add-to-list 'lsp-language-id-configuration '(nim-mode . "nim"))
+(lsp-register-client
+ (make-lsp-client :new-connection (lsp-stdio-connection "nimlsp")
+                  :major-modes '(nim-mode)
+                  :server-id 'nimlsp))
+(add-hook 'nim-mode-hook #'lsp)
 
 (add-hook 'nim-mode-hook 'my--init-nim-mode)
+
 (provide 'pkg-nim)
