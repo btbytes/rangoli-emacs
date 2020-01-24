@@ -2,6 +2,12 @@
 
 ;;; Packages
 
+(straight-use-package 'doom-themes)
+(require 'doom-themes)
+(setq doom-themes 'doom-opera-light)
+;; (load-theme 'doom-opera-light t)
+
+
 ;; My details
 (setq user-full-name "Pradeep Gowda")
 (setq user-mail-address "pradeep@btbytes.com")
