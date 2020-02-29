@@ -48,8 +48,9 @@
               (rangoli/set-local-leader-key "v p" 'pyvenv-workon "pick pyenv"))))
 
 ;; YAPF
-
-
+(straight-use-package 'py-yapf)
+(require 'py-yapf)
+(add-hook 'python-mode-hook 'py-yapf-enable-on-save)
 ;;; DAP
 
 ;; https://www.reddit.com/r/emacs/comments/bxhod6/where_do_i_find_templates_for_dapmode/eq6rm65

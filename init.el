@@ -57,7 +57,7 @@
 (require 'rangoli-cpp)
 (require 'rangoli-python)
 (require 'rangoli-swift)
-(require 'rangoli-java)
+;; (require 'rangoli-java)
 
 ;; You probably /do not/ want these
 
@@ -71,6 +71,10 @@
 (require 'pkg-nim)
 (require 'pkg-scheme)
 (require 'pkg-pandoc)
+(require 'pkg-notes)
+(require 'pkg-clojure)
+(require 'pkg-lisp)
+(require 'pkg-java)
 ;; the private-emacs-config-dir caused some issues with yasnippet directory location.
 (let ((rangoli-private-config (f-join rangoli/private-emacs-config-dir "init.el")))
   (when (f-exists? rangoli-private-config)
