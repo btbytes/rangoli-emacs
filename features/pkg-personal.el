@@ -23,5 +23,15 @@
 (global-set-key (kbd "<home>") 'beginning-of-line)
 (global-set-key (kbd "<end>") 'end-of-line)
 
+
+;; fix ssl issues -- not yet
+(require 'gnutls)
+(push "/usr/local/etc/libressl/cert.pem" gnutls-trustfiles)
+
+;; proportional fonts
+'(variable-pitch ((t (:family "Helvetica Neue" :height 160))))
+
+
+
 (provide 'pkg-personal)
 ;; pkg-personal.el ends here

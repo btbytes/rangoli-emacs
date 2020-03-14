@@ -75,6 +75,8 @@
 (require 'pkg-clojure)
 (require 'pkg-lisp)
 (require 'pkg-java)
+(require 'pkg-org)
+
 ;; the private-emacs-config-dir caused some issues with yasnippet directory location.
 (let ((rangoli-private-config (f-join rangoli/private-emacs-config-dir "init.el")))
   (when (f-exists? rangoli-private-config)
