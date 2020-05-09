@@ -7,9 +7,10 @@
 ;; (setq doom-themes 'doom-opera-light)
 ;; (load-theme 'doom-opera-light t)
 (straight-use-package 'base16-theme)
-;; (load-theme 'base16-atelier-dune-light t)
+(load-theme 'base16-atelier-dune-light t)
+;; (load-theme 'base16-bespin t)
 ;; (load-theme 'base16-atelier-lakeside-light t)
-(load-theme 'base16-grayscale-light t)
+;; (load-theme 'base16-grayscale-light t)
 
              
 

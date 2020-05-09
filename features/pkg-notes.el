@@ -2,6 +2,10 @@
 
 ;;; Packages
 
+;; remember
+
+(setq org-default-notes-file (concat rangoli/notes-dir "notes.org"))
+
 ;; deft
 (straight-use-package 'deft)
 (require 'deft)

@@ -1,7 +1,9 @@
 ;; pkg-nim.el --- nim language configuration -*- lexical-binding: t; -*-
 (straight-use-package 'nim-mode)
 (require 'nim-mode)
-(setq nimsuggest-path "/Users/pgowda/nim/bin/nimsuggest")
+
+(setq nimsuggest-path (f-expand "~/.nimble/bin/nimsuggest"))
+(setq nimlsp-path (f-expand "~/.nimble/bin/nimlsp"))
 
 (defun my--init-nim-mode ()
   "Local init function for `nim-mode'."
@@ -28,9 +30,9 @@
   (auto-fill-mode 0)
   (electric-indent-local-mode 0)
 )
-(add-to-list 'lsp-language-id-configuration '(nim-mode . "nim"))
+(add-to-list 'lsp-language-id-configuration '(nim-mode "nim" . "nims"))
 (lsp-register-client
- (make-lsp-client :new-connection (lsp-stdio-connection "nimlsp")
+ (make-lsp-client :new-connection (lsp-stdio-connection nimlsp-path)
                   :major-modes '(nim-mode)
                   :server-id 'nimlsp))
 (add-hook 'nim-mode-hook #'lsp)

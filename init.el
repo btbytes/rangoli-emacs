@@ -73,6 +73,7 @@
 (require 'pkg-pandoc)
 (require 'pkg-notes)
 (require 'pkg-clojure)
+(require 'pkg-janet)
 (require 'pkg-lisp)
 (require 'pkg-java)
 (require 'pkg-org)
