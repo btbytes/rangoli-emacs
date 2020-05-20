@@ -1,0 +1,5 @@
+# contributor: btbytes<pradeep@btbytes.com>
+# name: jrnl
+# Create a JOURNAL entry line for zettelkasten
+# --
+JOURNAL: `(format-time-string "%Y-%m-%dT%H:%M:%S")` $2

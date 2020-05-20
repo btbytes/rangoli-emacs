@@ -1,0 +1,9 @@
+# contributor: btbytes<pradeep@btbytes.com>
+# name: zettel
+# --
+---
+title: $1
+date: `(format-time-string "%Y-%m-%d")`
+---
+
+$2

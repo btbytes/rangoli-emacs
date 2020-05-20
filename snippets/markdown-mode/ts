@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: ts
-# key: ts
+# name: isodate
+# key: isodate
 # --
-`(format-time-string "%Y-%m-%dT%H:%M:%S%:z")`
+`(format-time-string "%Y-%m-%d")`
