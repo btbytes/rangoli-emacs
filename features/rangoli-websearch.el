@@ -2,7 +2,10 @@
 
 ;;; Packages
 
-(straight-use-package 'engine-mode)
+(straight-use-package
+ '(el-patch :host github
+            :repo "hrs/engine-mode"
+            :branch "main"))
 
 ;;; engine-mode
 

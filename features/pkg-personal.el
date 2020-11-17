@@ -13,7 +13,7 @@
 ;; (load-theme 'base16-atelier-lakeside-light t)
 ;; (load-theme 'base16-grayscale-light t)
 
-             
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))             
 
 ;; My details
 (setq user-full-name "Pradeep Gowda")
